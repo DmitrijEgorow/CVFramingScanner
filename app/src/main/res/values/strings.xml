@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Контроль финальных этапов строительных работ</string>
+    <string name="smlt">самолет</string>
+    <string name="alt_bottom_sheet_chevron">Показать параметры</string>
+    <string name="label_interence_time">Время инференса</string>
+    <string name="label_fps">FPS</string>
+    <string name="label_confidence_threshold">Порог</string>
+    <string name="label_max_results">Макс результатов</string>
+    <string name="label_threads">Число потоков</string>
+    <string name="label_delegate">Делегат</string>
+    <string name="label_models">Модель</string>
+    <string name="cancel_check">Не можем проверить</string>
+    <string name="proceed_check">Идём проверять</string>
+    <string name="default_inspection_item_text_window">установлено окно</string>
+    <string name="default_inspection_item_text_door">установлена входная дверь</string>
+
+    <string name="alt_bottom_sheet_max_results_button_minus">Уменьшить максимальное количество результатов</string>
+    <string name="alt_bottom_sheet_max_results_button_plus">Увеличить максимальное количество результатов</string>
+    <string name="alt_bottom_sheet_threshold_button_minus">Уменьшить порог</string>
+    <string name="alt_bottom_sheet_threshold_button_plus">Увеличить порог</string>
+    <string name="alt_bottom_sheet_thread_button_minus">Уменьшить число потоков</string>
+    <string name="alt_bottom_sheet_thread_button_plus">увеличить число потоков</string>
+    <string name="finished">Закончили</string>
+    <string name="inspection_invitation_text_with_params">Направляемся смотреть квартиру %1$s на этаже %2$s. Проверяем, что %3$s</string>
+    <string name="permissions_granted_text">Выданы необходимые разрешения для приложения</string>
+    <string name="permissions_not_granted_text">Отсутствуют системные разрешения для приложения</string>
+    <string name="i_am_here">Я на месте</string>
+
+    <string-array name="delegate_spinner_titles">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+
+    <!-- Change Available Models order simultaneously -->
+    <string-array name="models_spinner_titles">
+        <item>MobileNet V3</item>
+        <item>EfficientNet Lite4</item>
+        <item>SqueezeNet</item>
+        <item>MnasNet</item>
+    </string-array>
+</resources>
